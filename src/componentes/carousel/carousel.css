@@ -1,0 +1,81 @@
+.carousel-section {
+    margin: 20px 0;
+  }
+  
+  .carousel-section h3 {
+    margin-bottom: 10px;
+    color: #fff;
+    padding-left: 20px;
+  }
+  
+  .carousel-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .carousel-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 10px;
+    padding: 0 20px;
+    scrollbar-width: none; /* Firefox */
+  }
+  .carousel-container::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+  }
+  
+  .carousel-item {
+    flex: 0 0 auto;
+    width: 150px;
+    height: 225px;
+    background-color: #333;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .carousel-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .carousel-item img {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    border-radius: 4px 4px 0 0;
+  }
+  
+  .carousel-item p {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 0.9rem;
+    color: #fff;
+    padding: 0 5px;
+  }
+  
+  .carousel-arrow {
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: #fff;
+    font-size: 2rem;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 2;
+  }
+  
+  .carousel-arrow:disabled {
+    opacity: 0.3;
+    cursor: default;
+  }
+  
+  .carousel-arrow.left {
+    margin-right: 10px;
+  }
+  
+  .carousel-arrow.right {
+    margin-left: 10px;
+  }
+  

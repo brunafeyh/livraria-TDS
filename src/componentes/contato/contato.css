@@ -1,0 +1,75 @@
+.content.contato {
+    background-color: #141414;
+    color: #fff;
+    margin-top: 80px;
+    min-height: calc(100vh - 80px);
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .social-links {
+    margin: 20px 0;
+  }
+  
+  .social-links a {
+    margin-right: 20px;
+    color: #646cff;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .social-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .contact-form {
+    margin: 20px 0;
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .contact-form label {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.9rem;
+  }
+  
+  .contact-form input,
+  .contact-form textarea,
+  .contact-form select {
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    width: 100%;
+    margin-top: 5px;
+  }
+  
+  .contact-form button {
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    background-color: #646cff;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .email-link {
+    margin-top: 20px;
+    font-size: 0.9rem;
+  }
+  
+  .email-link a {
+    color: #646cff;
+    text-decoration: none;
+  }
+  
+  .email-link a:hover {
+    text-decoration: underline;
+  }
+  

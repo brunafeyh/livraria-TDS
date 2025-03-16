@@ -1,0 +1,34 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background: #000;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    z-index: 999;
+  }
+  
+  .logo img {
+    margin-right: 40px;
+  }
+  
+  .nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav li {
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .nav li.active {
+    text-decoration: underline;
+  }
+  
